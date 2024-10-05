@@ -48,6 +48,16 @@ console.log(url.replace('%20', '@7858'));
 const hello = "cat is loyal than monkey and cat is also cute than monkey  monkey  "
 console.log(hello.replaceAll('cat','dog'));
 
+console.log(url.includes("jamal"));
+console.log(url.includes(45644));
+
+
+const cars = "bmw,audi,haval,kia-12,alto-30,mehran-1990,vitz-2000,bugati,meclarn,prado,revo"
+console.log(cars.split('-'));
+
+
+
+
 
 
 let text = "ali,ahmed,subhan"

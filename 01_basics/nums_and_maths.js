@@ -56,6 +56,7 @@
 
 console.log(Math.floor(Math.random()*(10-7+1))+7);   // range is from 1 to 10 and max value is also 10 min value is 7 so subtract max value from min value this formula is for the min value range to high 
 
+console.log(Math.floor(Math.random()*(10-6+1))+6);
 
 
 

@@ -52,20 +52,35 @@
  
  
 
-const num =12345;
-const arr = Array.from(String(num),Number)
-console.log(arr);
+// const num =12345;
+// const arr = Array.from(String(num),Number)
+// console.log(arr);
 
-const obj ={
-  name: "jamal khan",
-  age : 24,
-  uni : "uet"
-}
-const array = Array.from(obj);
-console.log(array);
-
-
+// const obj ={
+//   name: "jamal khan",
+//   age : 24,
+//   uni : "uet"
+// }
+// const array = Array.from(obj);
+// console.log(array);
 
 
-const char = ("jamal","khan")
-console.log(Array.of(char));
+
+
+// const char = ("jamal","khan")
+// console.log(Array.of(char));
+
+
+
+let obj = {
+  name : " jamal khan ",
+  age : 24 ,
+  university : " university of engineering and technology peshawar"
+ }
+// const array = Object.values(obj);
+// const newArray = Object.keys(obj);
+ const entries = Object.entries(obj)
+// console.log(array);
+// console.log(newArray);
+console.log(entries);
+

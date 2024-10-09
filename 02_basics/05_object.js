@@ -12,3 +12,4 @@ const {price : coursePrice} = course
 console.log(price);
 console.log(coursePrice);
 
+

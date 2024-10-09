@@ -52,3 +52,9 @@ console.log(JsUsers.greetingTwo());
 
 
 
+
+const person = {
+  name:"jhon",
+  age:50
+}
+console.log(`"${person.name} is ${person.age} year old "`);

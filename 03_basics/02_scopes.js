@@ -26,16 +26,16 @@ if(true){
 
 //console.log(username);
 
-console.log(one(5)); // in hoisting we can call function before declartion 
+console.log(addOne(5)); // in hoisting we can call function before declartion 
 
-function one (num){
+function addOne (num){
   return num + 1;  
 }
 
 
-console.log(two(3));  // but we cannot call when we store function in a variable 
+console.log(addTwoscope(3));  // but we cannot call when we store function in a variable 
 
-const myFunction = function two(num) {
+const addTwo = function(num) {
   return num + 2;
 }
 

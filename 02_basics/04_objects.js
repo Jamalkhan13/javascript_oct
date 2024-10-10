@@ -30,11 +30,11 @@ console.log(tinder);
 //   D : "Four D"
 // }
 
-// //const obj3 = {obj1,obj2}
-// //console.log(obj3);
-// //const obj3 = Object.assign({},obj1,obj2)
-// const obj3 = {...obj1,...obj2}
-// console.log(obj3);
+//const obj3 = {obj1,obj2}
+//console.log(obj3);
+//const obj3 = Object.assign({},obj1,obj2)
+//const obj3 = {...obj1,...obj2}
+//console.log(obj3);
 
 
 const users = [
@@ -53,9 +53,9 @@ const users = [
 ]
 
 console.log(users[1].id);
-const allUsers = {...users} //
+//const allUsers = {...users} //
 
-//const allUsers = Object.assign({},users)
+const allUsers = Object.assign({},users)
 //const allUsers = {...users[0],...users[1],...users[2]} // it will return only index 2 because of overwrite
 console.log(allUsers);
 

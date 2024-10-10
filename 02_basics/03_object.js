@@ -3,23 +3,23 @@
 
 // object literals
 
-const mySymbol = Symbol("key1")
-const myVal = " khan";
+// const mySymbol = Symbol("key1")
+// const myVal = " khan";
 
-const JsUsers = {
-  name : "jamal",
-  "full name" : "jamal khan",
-  mysym : Symbol("hello"),
-  //age : 24,
-  location: "rahimabad",
-  email: "@gmail.com",
-  [mySymbol] : "mykey1",
-  [myVal] : "khan",
-  isLoggedIn : false,
-  lastLoginDays : ["monday","saturday"] 
-}
+// const JsUsers = {
+//   name : "jamal",
+//   "full name" : "jamal khan",
+//   mysym : Symbol("hello"),
+//   //age : 24,
+//   location: "rahimabad",
+//   email: "@gmail.com",
+//   [mySymbol] : "mykey1",
+//   [myVal] : "khan",
+//   isLoggedIn : false,
+//   lastLoginDays : ["monday","saturday"] 
+// }
 
-// console.log(JsUsers.email);
+//  console.log(JsUsers);
 // console.log(JsUsers["full name"]);
 
 // console.log(JsUsers["email"]);

@@ -62,7 +62,7 @@
 //   uni : "uet"
 // }
 // const array = Array.from(obj);
-// console.log(array);
+// console.log(array); // will return []
 
 
 

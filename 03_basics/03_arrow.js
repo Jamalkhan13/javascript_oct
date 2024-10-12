@@ -28,3 +28,4 @@ console.log(addThree(5,5,5));
 // return object in implist 
 const objValue = ()=> ({name:"Jamal khan"})
 console.log(objValue());
+  

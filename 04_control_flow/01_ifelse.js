@@ -9,7 +9,6 @@ if(score >= 95){
   
 }else{
   console.log("fail");
-  
 }
 
 const balance = 1000;

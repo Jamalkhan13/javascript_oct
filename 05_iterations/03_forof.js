@@ -33,9 +33,6 @@ console.log(map.has('usa'));
 //console.log(map.delete('in'));
 console.log(map);
 
-
-
-
 for (const [key,value] of map) {  // destructure
  // console.log(key);  // will print in array
     console.log(key,value);

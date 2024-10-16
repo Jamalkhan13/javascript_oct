@@ -16,6 +16,7 @@ function printMe(item){
 }
 code.forEach(printMe)  // do not execute just give reference
 
+
 code.forEach( (item,index,code) => {
   console.log(item,index,code);
   

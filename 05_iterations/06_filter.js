@@ -34,5 +34,5 @@ const books = [
 
 const userBooks = books.filter( (bk)=>{
     return bk.genre === "history" && bk.edition >=2010
-} )
+} ).map((bk)=> bk.edition +2 )
 console.log(userBooks);

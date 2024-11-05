@@ -52,6 +52,6 @@ console.log(addToCart);
 
 
 
-for (var i=0; i<3; i==){
+for (var i=0; i<3; i+=1){
   setTimeout()
 }

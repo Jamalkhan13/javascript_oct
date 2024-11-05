@@ -49,3 +49,9 @@ console.log(addToCart);
 //      return accum 
 // }, {sum:0})
 // console.log(addToCart);
+
+
+
+for (var i=0; i<3; i==){
+  setTimeout()
+}

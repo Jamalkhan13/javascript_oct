@@ -7,7 +7,6 @@ function addLanguage (langName){
 addLanguage('react.js')
 addLanguage('next.js')
 
-
 // optmize method 
 
 function addOptimizeLanguage (languageName) {

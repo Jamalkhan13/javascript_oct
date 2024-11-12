@@ -8,9 +8,9 @@ addLanguage('react.js')
 addLanguage('next.js')
 
 
-// optimise method 
+// optmize method 
 
-function addOptimiseLanguage (languageName) {
+function addOptimizeLanguage (languageName) {
   const li = document.createElement('li')
   // instead of innerHTML will use createTextNode
   // const addText = document.createTextNode(languageName)
@@ -20,12 +20,34 @@ function addOptimiseLanguage (languageName) {
   li.appendChild(document.createTextNode(languageName))
   document.querySelector('.language').appendChild(li)
 }
-addOptimiseLanguage('mySQL')
-addOptimiseLanguage('mongoDB')
+addOptimizeLanguage('mySQL')
+addOptimizeLanguage('mongoDB')
 
 // Edit 
-const secondLanguage = document.querySelector("li:nth-child(1)")
+const secondLanguage = document.querySelector("li:nth-child(3)")
 // secondLanguage.innerHTML = "Mojo" // not a good practise 
 const newli = document.createElement('li')
 newli.textContent = "rust"
 secondLanguage.replaceWith(newli)
+
+
+const editLanguage = document.querySelector("li:nth-child(2)")
+const changeLanguage = document.createTextNode("python")
+editLanguage.textContent = ""  // clear existing text 
+editLanguage.appendChild(changeLanguage)
+
+
+// edit 
+const firstLanguage = document.querySelector("li:nth-child(1)")
+const updatedli = document.createElement('li')
+updatedli.textContent = "typescript";
+firstLanguage.replaceWith(updatedli)
+
+// edit 
+const lastLanguage = document.querySelector("li:last-child")
+lastLanguage.outerHTML = '<li>tailwind</li>'
+
+
+// remove 
+const lastLanguagee = document.querySelector("li:last-child")
+lastLanguagee.remove()

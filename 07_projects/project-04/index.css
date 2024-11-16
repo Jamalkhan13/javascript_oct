@@ -1,0 +1,27 @@
+body{
+  width: 300px;
+  max-width: 750px;
+  max-width: 480px;
+  margin: auto;
+  background-color: #212121;
+  color: #fff;
+}
+.lastResult{
+  color: white;
+  padding: 7px;
+}
+.guesses{
+  color: white;
+  padding: 7px;
+}
+#subt{
+  background-color: #141414;
+  color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 30px;
+  border-style: none;
+  margin-top: 30px;
+  margin-left: 50px;
+}

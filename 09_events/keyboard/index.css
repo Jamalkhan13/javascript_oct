@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.color{
+  border: 1px solid white;
+}
+table,th,td{
+  border: 1px solid white;
+}

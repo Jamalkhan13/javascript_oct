@@ -62,3 +62,28 @@ promiseFour.then(function(user){
   console.log("The promise is either resolved or rejected");
   
 })
+
+
+const promiseFive = new Promise(function(resolve,reject){
+  setTimeout(function(){
+    let error = false;
+    if(!error){
+    resolve({courseName : "javascript", price : 10000})
+    }else{
+      reject(" error : JS WENT WRONG ")
+    }
+  },1000)
+})
+
+async function promiseFiveConsumed() {
+  try {
+    const responce = await promiseFive;
+    console.log(responce.price);
+    
+  } catch (error) {
+    console.log(error);
+    
+  }
+}
+
+promiseFiveConsumed();

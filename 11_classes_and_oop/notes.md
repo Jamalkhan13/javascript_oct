@@ -23,6 +23,3 @@ object literal
 -Encapsulation
 -Inheritance
 -Polymorphism
--
--
--

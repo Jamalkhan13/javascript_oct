@@ -36,6 +36,10 @@ console.log(user.createId());
 
 
 /*
+
+Static methods are used when we need functionality that is relevant to the class as a whole and not specific to any particular instance. They are often used for utility or helper functions.
+
+
 Real timeexample 
 
 class Auth {

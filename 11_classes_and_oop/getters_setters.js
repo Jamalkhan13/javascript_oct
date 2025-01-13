@@ -20,6 +20,5 @@ class User {
       this._password = value.toUpperCase()
   }
 }
-
 const jamal = new User('jm@gmail.com', 'abc')
 console.log(jamal.email);

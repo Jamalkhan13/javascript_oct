@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closure</title>
+</head>
+<body>
+  
+<button id="orange">orange</button>
+<button id="blue">blue</button>
+ 
+</body>
+
+<script>
+
+  // lexical scoping
+
+  function outer (){
+    let userName = "jamal";  
+    console.log(myName); // outer function cannot access inner function
+    
+    function inner(){
+      let myName = "khan";
+      console.log(userName);
+    }
+    function innerTwo(){
+      console.log("inner two :", userName);
+      console.log(myName);   // inner function siblings can not access each other , inner functions can only access outer function
+      
+      
+    }
+    inner()
+    innerTwo()
+  }
+  outer();
+  console.log(`too outer : ${userName}`);
+  
+
+  
+
+
+// closure 
+
+    function makeFunc() {
+      const name = "chrome";
+      function displayName(){
+        console.log(name);
+      }
+      return displayName;
+    }
+
+    const myFunc = makeFunc();
+    myFunc()
+
+
+// real time example of closure 
+
+    // document.getElementById("orange").onclick = function(){
+    //   document.body.style.backgroundColor = 'orange'
+    // }
+
+    // document.getElementById("blue").onclick = function(){
+    //   document.body.style.backgroundColor = 'blue'
+    // }
+
+
+    function clickhandler(color){
+    //  document.body.style.backgroundColor = `${color}`
+     
+    return  function(){
+         document.body.style.backgroundColor = `${color}`
+      }
+     
+    }
+  
+    document.getElementById('orange').onclick = clickhandler("orange");
+    document.getElementById("blue").onclick = clickhandler("blue")
+  
+</script>
+</html>
